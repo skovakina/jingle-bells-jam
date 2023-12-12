@@ -11,7 +11,8 @@ from haversine import Unit
 
 pd.options.mode.chained_assignment = None
 
-locations = pd.read_csv('/Users/kellyshreeve/Desktop/Data-Sets/country_data.csv')
+url = 'https://raw.githubusercontent.com/skovakina/jingle-bells-jam/main/python/country_data.csv'
+locations = pd.read_csv(url)
 
 countries = ['United States', 'Greenland', 'Bolivia', 'Central African Republic', 'Antarctica',
              'France', 'Russia', 'Australia', 'Afghanistan']
