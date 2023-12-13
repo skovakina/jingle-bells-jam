@@ -11,7 +11,7 @@ from haversine import Unit
 
 pd.options.mode.chained_assignment = None
 
-url = 'https://raw.githubusercontent.com/skovakina/jingle-bells-jam/main/scripts/country_data.csv'
+url = 'https://raw.githubusercontent.com/skovakina/jingle-bells-jam/main/src/scripts/country_data.csv'
 locations = pd.read_csv(url)
 
 countries = ['United States', 'Greenland', 'Bolivia', 'Central African Republic', 'Antarctica',
