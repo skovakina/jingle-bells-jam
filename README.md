@@ -1,4 +1,4 @@
-# Nerry Mailers
+# Merry Mailers
 
 ### Meat our team
 
