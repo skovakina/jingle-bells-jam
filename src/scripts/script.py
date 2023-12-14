@@ -43,6 +43,8 @@ for i in range(len(unique_cities)-1):
     
     old_city = new_city
 
+
+
 country_order = CategoricalDtype(visited_cities, ordered=True)
 
 locations_9['name'] = locations_9['name'].astype(country_order)
@@ -54,6 +56,6 @@ map = px.line_geo(data_frame=locations_9, lat='latitude', lon='longitude', hover
 
 map.update_geos(landcolor='LightGreen')
 
-map.show()
+# map.show()
 
 print(f'Total Distance: {total_distance:.2f} miles')

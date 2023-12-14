@@ -56,7 +56,7 @@ map = px.line_geo(data_frame=locations_9, lat='latitude', lon='longitude', hover
 
 map.update_geos(landcolor='LightGreen')
 
-map.show()
+# map.show()
 
 dictionary = {
     'total_distance': total_distance
