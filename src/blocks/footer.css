@@ -3,7 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/map-background.png");
+  background-size: 30%;
+  background-image: linear-gradient(
+      rgba(187, 45, 37, 0.8),
+      rgba(224, 76, 64, 0.8)
+    ),
+    url("../images/background.png");
 }
 
 .footer__copyright {
