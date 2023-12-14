@@ -1,0 +1,64 @@
+.entertainment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 132px;
+  margin-bottom: 168px;
+}
+
+.entertainment__description {
+  display: flex;
+  flex-direction: column;
+  max-width: 515px;
+  width: 100%;
+}
+
+.entertainment__heading {
+  font-family: "Signika", "Arial", "Helvetica", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+  color: #c0140b;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.enternainment__sub-heading {
+  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #397f65;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.entertainment__content {
+  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.entertainment__content:first-of-type {
+  margin-bottom: 22px;
+}
+
+.entertainment__iframe-container {
+  width: 622px;
+  height: 348px;
+}
+
+.entertainment__iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

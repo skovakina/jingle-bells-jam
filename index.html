@@ -3,7 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Merry Mailers</title>
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="Merry Christamas, Christmas wish, Santa claus, Christmas, Magic, Christmas gift delivery"
+    />
+    <meta name="author" content="Merry Codemas" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body></body>
+  <body class="page">
+    <div class="page__content">
+      <header class="header">
+        <h1 class="header__heading">merry mailers</h1>
+        <img
+          class="header__image"
+          src="./images/header-background.jpg"
+          alt="Christmas animated image."
+        />
+        <div class="header__description">
+          <h2 class="header__catchword">Powered by Santa’s Magic!</h2>
+          <p class="header__text">
+            Hey there! Ever wondered how Santa gets all those gifts around the
+            globe in one night? Well, we've borrowed a page from his book!
+            Welcome to Merry Mailers, the most efficient (and let’s be honest,
+            the most fun) delivery service in the world.
+          </p>
+        </div>
+        <img
+          class="header__lights-image"
+          src="./images/lights.svg"
+          alt="Christmas lights"
+        />
+      </header>
+      <main class="main">
+        <section class="service">
+          <p class="service__description">
+            We don’t do boring. Our delivery team? Elves might mix up a package
+            or two, but hey, that’s just an opportunity for you to meet your
+            neighbors! With a sprinkle of holiday magic, we ensure that your
+            packages don’t just arrive on time, they arrive with style.
+          </p>
+          <div class="features">
+            <div class="feature">
+              <img
+                class="feature__image"
+                src="./images/gift.png"
+                alt="Gift image"
+              />
+              <p class="feature__name">Lightning-Fast Deliveries</p>
+              <p class="feature__description">
+                We're talking Rudolph-on-a-good-day fast!
+              </p>
+            </div>
+            <div class="feature">
+              <img
+                class="feature__image"
+                src="./images/Christmas-tree.png"
+                alt="Christmas tree image"
+              />
+              <p class="feature__name">Holiday Cheer Included</p>
+              <p class="feature__description">
+                Each package comes with a dash of joy and a hint of peppermint.
+              </p>
+            </div>
+            <div class="feature">
+              <img
+                class="feature__image"
+                src="./images/reindeer.png"
+                alt="Christmas tree image"
+              />
+              <p class="feature__name">Eco-Friendly Sleighs</p>
+              <p class="feature__description">
+                Zero emissions here – unless you count the occasional reindeer
+                sneeze.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="map">
+          <h2 class="map__heading">
+            Delivering gifts faster than you can say "Ho Ho Ho!"
+          </h2>
+          <div class="map__container">
+            <iframe
+              class="map__iframe"
+              src="./images/iframe-example.png"
+            ></iframe>
+          </div>
+        </section>
+        <section class="wish-maker">
+          <div class="wish-maker__container">
+            <h2 class="wish-maker__heading">Got a Wish? Write to Santa!</h2>
+            <div class="wish-maker__form-container">
+              <form class="form wish-maker__form">
+                <fieldset class="form__fieldset">
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="  Full Name"
+                    required
+                  />
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="Adress"
+                    id="Adress"
+                    placeholder="  Adress"
+                    required
+                  />
+                  <input
+                    class="form__input form__input_size_big"
+                    type="text"
+                    name="Your dreams"
+                    id="Your dreams"
+                    placeholder="  Your dreams"
+                    required
+                  />
+                </fieldset>
+                <fieldset class="form__fieldset">
+                  <button type="submit" class="form__button">
+                    <img src="./images/send_button.svg" />
+                    Send
+                  </button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <img
+            class="wish-maker__image"
+            src="./images/wish-maker-image.png"
+            alt="Christmas cats animated image"
+          />
+          <img
+            class="wish-maker__lights-image"
+            src="./images/lights.svg"
+            alt="Christmas lights"
+          />
+        </section>
+        <section class="entertainment">
+          <div class="entertainment__description">
+            <h2 class="entertainment__heading">
+              Listen to Rudolf’s road playlist
+            </h2>
+            <p class="enternainment__content">
+              Think delivering millions of packages in one night is done in
+              silence? Oh no, not at Merry Mailers! We're cranking up the
+              festive fun with the perfect mix of jingles, joy, and jumpin'
+              beats to get those hooves tapping!
+            </p>
+            <p class="enternainment__sub-heading">What's on the Playlist?</p>
+            <p class="entertainment__content">
+              🎅 North Pole’s Top Hits: The songs that get Santa and the team in
+              the groove for the big night.
+            </p>
+            <p class="entertainment__content">
+              🦌 Reindeer Remixes: From 'Jingle Bells' to 'Deck the Halls',
+              these tunes are reinvented with a Rudolf twist!
+            </p>
+            <p class="entertainment__content">
+              🧝Elf-Crafted Beats: Our elves are not just good at making toys;
+              they're pretty savvy with tunes too!
+            </p>
+          </div>
+          <div class="entertainment__iframe-container">
+            <iframe
+              class="entertainment__iframe"
+              width="622"
+              height="348"
+              src="https://www.youtube.com/embed/rtjP56nTB8E?si=cZfTrb1iJZCjxhTz"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy; 2023 Merry Codemas</p>
+      </footer>
+    </div>
+  </body>
 </html>

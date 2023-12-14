@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.header__heading {
+  text-align: center;
+  color: #fff;
+  background-color: #bb2d25;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  font-family: "Signika", "Arial", "Helvetica", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.header__image {
+  max-width: 1440px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 0 61px 0;
+}
+
+.header__catchword {
+  font-family: "Signika", "Arial", "Helvetica", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #c0140b;
+  margin: 0 0 12px 0;
+}
+
+.header__text {
+  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+
+.header__lights-image {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+}

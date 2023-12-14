@@ -1,0 +1,33 @@
+.wish-maker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.wish-maker__container {
+  display: flex;
+  flex-direction: column;
+  width: 755px;
+  margin-left: auto;
+}
+
+.wish-maker__heading {
+  font-family: "Signika", "Arial", "Helvetica", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+  color: #c0140b;
+}
+
+.wish-maker__form-container {
+  display: flex;
+  justify-content: center;
+  max-width: 755px;
+  width: 100%;
+  max-height: 404px;
+  height: 100%;
+  background: url("../images/map-background.png") no-repeat;
+  border-radius: 20px;
+}

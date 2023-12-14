@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Signika";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/Signika-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/Figtree-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/Figtree-Bold.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/Figtree-SemiBold.ttf") format("woff2");
+}
