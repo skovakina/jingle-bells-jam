@@ -1,5 +1,6 @@
 const express = require("express");
 const { spawn } = require("child_process");
+const path = require("path");
 
 const { PORT = 3000 } = process.env;
 
@@ -22,7 +23,7 @@ app.get("/", (req, res) => {
     console.log(`Data sent successfully`);
     // console.log(dataToSend);
     let data = JSON.parse(dataToSend);
-
+    console.log(data);
     res.send(data);
   });
 });
