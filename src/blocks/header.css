@@ -51,8 +51,26 @@
   margin: 0;
 }
 
-.header__lights-image {
-  max-width: 1440px;
-  width: 100%;
-  display: flex;
+@media screen and (max-width: 950px) {
+  .header__description {
+    max-width: 400px;
+  }
+
+  .header__catchword {
+    text-align: center;
+  }
+
+  .header__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header__heading {
+    font-size: 20px;
+  }
+
+  .header__catchword {
+    font-size: 40px;
+  }
 }
