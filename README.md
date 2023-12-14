@@ -56,16 +56,11 @@ Random Start city: Antarctica
 
 Random Route Order: 'Antarctica', 'France', 'Australia', 'Bolivia', 'United States', 'Greenland', 'Afghanistan', 'Russia', 'Central African Republic'
 
-<p align="center">
-  <img src="/images/histograms.png" 
-  width="600"
-  height="400"
-  alt="Correlation heatmap">
-</p>
+![Alt text](<Screenshot 2023-12-14 at 3.12.00 PM.png>)
 
-Total Distance: 46977.53 miles
+Random Route Distance: 46977.53 miles
 
-Total Time: 36.14 Hours
+Random Route Time: 36.14 Hours
 
 #### Optimized Model
 
@@ -84,5 +79,5 @@ Optimized Route Order: 'Afghanistan', 'Russia', 'Australia', 'Antarctica', 'Boli
 
 Optimal Distance: 31087 miles
 
-Total Time: 23.91 hours
+Optimized Time: 23.91 hours
 
