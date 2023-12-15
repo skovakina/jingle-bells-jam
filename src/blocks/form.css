@@ -21,6 +21,7 @@
 
 .form__input_size_big {
   height: 194px;
+  overflow: hidden;
 }
 
 .form__input:focus {
