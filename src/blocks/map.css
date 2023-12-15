@@ -71,7 +71,7 @@
 .map__text {
   max-width: 1000px;
   width: 100%;
-  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
+
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
@@ -95,7 +95,6 @@
 }
 
 .map__name {
-  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.2;
@@ -122,17 +121,14 @@
 }
 
 .map__distance {
-  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
   font-size: 32px;
   font-weight: 700;
   color: #bb2d25;
 }
 
 .map__algorithm {
-  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
-
   text-align: center;
 }
 
@@ -145,7 +141,7 @@
 
   .map__container {
     margin: 58px auto 28px auto;
-    max-height: 571px;
+    max-height: 570px;
   }
 
   .map__text {
@@ -162,7 +158,7 @@
   }
 
   .map__name {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .map__image {
@@ -175,7 +171,7 @@
   }
 
   .map__algorithm {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -214,6 +210,6 @@
 
   .map__text {
     max-width: 280px;
-    font-size: 12px;
+    font-size: 14px;
   }
 }

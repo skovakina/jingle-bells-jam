@@ -17,6 +17,7 @@
       crossorigin=""
     />
     <script
+      defer
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
@@ -47,15 +48,15 @@
           src="<%=require('./images/lights.svg')%>"
           alt="Christmas lights"
         />
-        <section class="service">
-          <p class="service__description">
+        <section class="features">
+          <p class="features__description">
             We don’t do boring. Our delivery team? Elves might mix up a package
             or two, but hey, that’s just an opportunity for you to meet your
             neighbors! With a sprinkle of holiday magic, we ensure that your
             packages don’t just arrive on time, they arrive with style.
           </p>
-          <div class="features">
-            <div class="feature">
+          <div class="features__list">
+            <div class="features__feature">
               <img
                 class="feature__image"
                 src="<%=require('./images/gift.png')%>"
@@ -66,7 +67,7 @@
                 We're talking Rudolph-on-a-good-day fast!
               </p>
             </div>
-            <div class="feature">
+            <div class="features__feature">
               <img
                 class="feature__image"
                 src="<%=require('./images/Christmas-tree.png')%>"
@@ -77,7 +78,7 @@
                 Each package comes with a dash of joy and a hint of peppermint.
               </p>
             </div>
-            <div class="feature">
+            <div class="features__feature">
               <img
                 class="feature__image feature__image_widther"
                 src="<%=require('./images/reindeer.png')%>"
@@ -153,7 +154,6 @@
                   maxlength="30"
                   id="name"
                   placeholder="Full Name"
-                  required
                 />
                 <span class="form__input-error name-error"></span>
                 <input
@@ -165,7 +165,6 @@
                   minlength="10"
                   maxlength="100"
                   placeholder="Address"
-                  required
                 />
                 <span class="form__input-error address-error"></span>
                 <textarea

@@ -28,10 +28,8 @@
 }
 
 .enternainment__sub-heading {
-  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
   font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
   text-align: left;
   color: #397f65;
   margin-bottom: 12px;
@@ -39,10 +37,8 @@
 }
 
 .entertainment__content {
-  font-family: "Figtree", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.2;
   text-align: left;
   margin-bottom: 10px;
   margin-top: 0;
@@ -75,9 +71,18 @@
   .entertainment__description {
     max-width: 725px;
     margin-bottom: 24px;
+    padding: 0 20px;
   }
 
   .entertainment__heading {
+    text-align: center;
+  }
+
+  .entertainment__content {
+    text-align: center;
+  }
+
+  .enternainment__sub-heading {
     text-align: center;
   }
 }
@@ -117,7 +122,7 @@
   }
 
   .entertainment__content {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .entertainment__iframe-container {
