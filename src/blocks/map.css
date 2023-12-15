@@ -39,7 +39,7 @@
       rgba(224, 76, 64, 0.8)
     ),
     url("../images/background.png");
-  padding-top: 71px;
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,7 +53,7 @@
   line-height: 1.2;
   text-align: center;
   color: #fff;
-  max-width: 871px;
+  max-width: 870px;
   width: 100%;
   margin-bottom: 0;
   margin-top: 0;
@@ -61,15 +61,15 @@
 
 .map__container {
   display: flex;
-  max-width: 1198px;
+  max-width: 1200px;
   width: 100%;
-  max-height: 527px;
+  max-height: 530px;
   height: 100%;
   margin: 50px auto;
 }
 
 .map__text {
-  max-width: 1004px;
+  max-width: 1000px;
   width: 100%;
   font-family: "Figtree", "Arial", "Helvetica", sans-serif;
   font-size: 20px;
@@ -82,7 +82,7 @@
 .map__wrapper {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1004px;
+  max-width: 1000px;
   width: 100%;
   justify-content: space-between;
 }
@@ -91,7 +91,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 464px;
+  max-width: 460px;
 }
 
 .map__name {
@@ -107,27 +107,24 @@
   width: 100%;
   max-height: 150px;
   height: 100%;
+
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .map__image_angry {
   animation-name: light_effect_angry;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 .map__image_happy {
   animation-name: light_effect_happy;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 .map__distance {
   font-family: "Figtree", "Arial", "Helvetica", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  line-height: 1.2;
   color: #bb2d25;
 }
 
@@ -135,14 +132,14 @@
   font-family: "Figtree", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.2;
+
   text-align: center;
 }
 
 @media screen and (max-width: 950px) {
   .map__heading {
     font-size: 32px;
-    max-width: 697px;
+    max-width: 700px;
     margin-top: 54px;
   }
 
@@ -190,7 +187,7 @@
 
   .map__container {
     margin: 38px auto 28px auto;
-    max-height: 571px;
+    max-height: 570px;
   }
 
   .map__text {
