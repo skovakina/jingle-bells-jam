@@ -12,3 +12,9 @@
   width: 100%;
   display: flex;
 }
+
+@media screen and (max-width: 365px) {
+  .main__divisor {
+    min-width: 700px;
+  }
+}

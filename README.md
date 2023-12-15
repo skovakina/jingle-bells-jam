@@ -24,3 +24,65 @@ cd jingle-bells-jam
 npm install
 npm start
 ```
+
+### Route Optimization
+
+To help Santa get where he needs to go, our resident Data Scientist optimized his route around the globe. From a random model taking over 36 hours to a speedy 23 hour trip, here's how data helped Santa.
+
+#### Data Set
+
+A data set of longitude and latitudes for each country around the world was found open-source on Kaggle and can be accessed [here](https://www.kaggle.com/datasets/alexkaechele/country-geo).
+
+country.csv
+
+* *country*: country abbreviation
+* *latitude*: country latitude
+* *longitude*: country longitude
+* *name*: country name
+
+#### Approach
+
+This problem is a take on the 'Traveling Sales Man' problem to optimize the route between multiple locations.  
+
+Rather than brute-force solve the permutation problem, Concorde library in Python optimizes the route between many locations, with quick and efficient calculations.  
+
+*Haversine* distance to calculates 'as the bird flies' while taking into account the curvature of the earth.
+
+#### Random Model
+
+First, a random model was fit as a baseline distance and time it would take Santa without data support:
+
+Random Start city: Antarctica
+
+Random Route Order: 'Antarctica', 'France', 'Australia', 'Bolivia', 'United States', 'Greenland', 'Afghanistan', 'Russia', 'Central African Republic'
+
+<p align="center">
+  <img src="/images/histograms.png" 
+  width="600"
+  height="400"
+  alt="Correlation heatmap">
+</p>
+
+Total Distance: 46977.53 miles
+
+Total Time: 36.14 Hours
+
+#### Optimized Model
+
+With Concorde library, Santa's route was optimized to the shortest distance possible.
+
+Optimal Start city: Afghanistan
+
+Optimized Route Order: 'Afghanistan', 'Russia', 'Australia', 'Antarctica', 'Bolivia', 'United States', 'Greenland', 'France', 'Central African Republic'
+
+<p align="center">
+  <img src="/images/histograms.png" 
+  width="600"
+  height="400"
+  alt="Correlation heatmap">
+</p>
+
+Optimal Distance: 31087 miles
+
+Total Time: 23.91 hours
+

@@ -57,7 +57,7 @@
   }
 
   .wish-maker__heading {
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
     margin-top: 0;
   }
@@ -70,5 +70,21 @@
 
   .wish-maker__image {
     display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .wish-maker {
+    margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .wish-maker {
+    margin-top: 20px;
+  }
+
+  .wish-maker__heading {
+    font-size: 30px;
   }
 }

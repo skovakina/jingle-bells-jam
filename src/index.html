@@ -29,7 +29,7 @@
         <h1 class="header__heading">merry mailers</h1>
         <img
           class="header__image"
-          src="<%=require('./images/header-background.jpg')%>"
+          src="./images/header-background.jpg"
           alt="Christmas animated image."
         />
         <div class="header__description">
@@ -45,7 +45,7 @@
       <main class="main">
         <img
           class="main__divisor"
-          src="<%=require('./images/lights.svg')%>"
+          src="./images/lights.svg"
           alt="Christmas lights"
         />
         <section class="service">
@@ -59,7 +59,7 @@
             <div class="feature">
               <img
                 class="feature__image"
-                src="<%=require('./images/gift.png')%>"
+                src="./images/gift.png"
                 alt="Gift image"
               />
               <p class="feature__name">Lightning-Fast Deliveries</p>
@@ -70,7 +70,7 @@
             <div class="feature">
               <img
                 class="feature__image"
-                src="<%=require('./images/Christmas-tree.png')%>"
+                src="./images/Christmas-tree.png"
                 alt="Christmas tree image"
               />
               <p class="feature__name">Holiday Cheer Included</p>
@@ -81,7 +81,7 @@
             <div class="feature">
               <img
                 class="feature__image feature__image_widther"
-                src="<%=require('./images/reindeer.png')%>"
+                src="./images/reindeer.png"
                 alt="Reindeer image"
               />
               <p class="feature__name">Eco-Friendly Sleighs</p>
@@ -140,7 +140,10 @@
                 </fieldset>
                 <fieldset class="form__fieldset">
                   <button type="submit" class="form__button">
-                    <img src="<%=require('./images/send_button.svg')%>" />
+                    <img
+                      src="./images/send_button.svg"
+                      class="form__button-image"
+                    />
                     Send
                   </button>
                 </fieldset>
@@ -149,13 +152,13 @@
           </div>
           <img
             class="wish-maker__image"
-            src="<%=require('./images/wish-maker-image.png')%>"
+            src="./images/wish-maker-image.png"
             alt="Christmas cats animated image"
           />
         </section>
         <img
           class="main__divisor"
-          src="<%=require('./images/lights.svg')%>"
+          src="./images/lights.svg"
           alt="Christmas lights"
         />
         <section class="entertainment">
@@ -186,8 +189,6 @@
           <div class="entertainment__iframe-container">
             <iframe
               class="entertainment__iframe"
-              width="622"
-              height="348"
               src="https://www.youtube.com/embed/rtjP56nTB8E?si=cZfTrb1iJZCjxhTz"
               title="YouTube video player"
               frameborder="0"

@@ -33,7 +33,6 @@
 
 .features {
   display: flex;
-  /*grid-template-columns: repeat(auto-fit, 317px);*/
   justify-content: space-between;
   align-items: center;
   row-gap: 25px;
@@ -125,5 +124,33 @@
 
   .features {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .service {
+    margin-top: 20px;
+  }
+
+  .service__description {
+    font-size: 12px;
+    max-width: 280px;
+    margin-bottom: 30px;
+  }
+
+  .feature__image {
+    max-width: 50px;
+  }
+
+  .feature__image_widther {
+    max-width: 60px;
+  }
+
+  .feature__name {
+    font-size: 14px;
+  }
+
+  .feature__description {
+    font-size: 12px;
   }
 }
