@@ -16,7 +16,6 @@ export default class Form {
 
   setInputValues(data) {
     this._formInputs.forEach((item) => {
-      console.log(this._formInputs);
       item.value = data[item.name];
     });
   }

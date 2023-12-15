@@ -49,11 +49,9 @@ formValidator.enableValidation();
 const popupConfirm = new Popup(popup);
 
 const formLetter = new Form(form, () => {
-  console.log(popupConfirm);
   popupConfirm.open();
   dataLetters.push(formLetter._getInputValues());
   formLetter.reset();
 });
 
 formLetter.setEventListeners();
-console.log(dataLetters);

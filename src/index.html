@@ -21,7 +21,6 @@
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
     ></script>
-    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <div class="page__content">
@@ -29,7 +28,7 @@
         <h1 class="header__heading">merry mailers</h1>
         <img
           class="header__image"
-          src="./images/header-background.jpg"
+          src="<%=require('./images/header-background.jpg')%>"
           alt="Christmas animated image."
         />
         <div class="header__description">
@@ -45,7 +44,7 @@
       <main class="main">
         <img
           class="main__divisor"
-          src="./images/lights.svg"
+          src="<%=require('./images/lights.svg')%>"
           alt="Christmas lights"
         />
         <section class="service">
@@ -59,7 +58,7 @@
             <div class="feature">
               <img
                 class="feature__image"
-                src="./images/gift.png"
+                src="<%=require('./images/gift.png')%>"
                 alt="Gift image"
               />
               <p class="feature__name">Lightning-Fast Deliveries</p>
@@ -70,7 +69,7 @@
             <div class="feature">
               <img
                 class="feature__image"
-                src="./images/Christmas-tree.png"
+                src="<%=require('./images/Christmas-tree.png')%>"
                 alt="Christmas tree image"
               />
               <p class="feature__name">Holiday Cheer Included</p>
@@ -81,7 +80,7 @@
             <div class="feature">
               <img
                 class="feature__image feature__image_widther"
-                src="./images/reindeer.png"
+                src="<%=require('./images/reindeer.png')%>"
                 alt="Reindeer image"
               />
               <p class="feature__name">Eco-Friendly Sleighs</p>
@@ -111,7 +110,7 @@
               <p class="map__name">Before</p>
               <img
                 class="map__image map__image_angry"
-                src="./images/angry-santa.svg"
+                src="<%=require('./images/angry-santa.svg')%>"
                 alt="Angry Santa"
               />
               <p class="map__distance">34586 mi</p>
@@ -124,7 +123,7 @@
               <p class="map__name">After</p>
               <img
                 class="map__image map__image_happy"
-                src="./images/happy-santa.svg"
+                src="<%=require('./images/happy-santa.svg')%>"
                 alt="Happy Santa"
               />
               <p class="map__distance">19316 mi</p>
@@ -137,14 +136,14 @@
         </section>
         <img
           class="main__divisor"
-          src="./images/lights.svg"
+          src="<%=require('./images/lights.svg')%>"
           alt="Christmas lights"
         />
         <section class="wish-maker">
           <div class="wish-maker__container">
             <h2 class="wish-maker__heading">Got a Wish? Write to Santa!</h2>
             <div class="wish-maker__form-container">
-              <form class="form wish-maker__form" name="form">
+              <form class="form wish-maker__form" name="form" id="form">
                 <input
                   required
                   class="form__input"
@@ -182,7 +181,7 @@
                 <span class="form__input-error your-dreams-error"></span>
                 <button type="submit" class="form__button">
                   <img
-                    src="./images/send_button.svg"
+                    src="<%=require('./images/send_button.svg')%>"
                     class="form__button-image"
                   />
                   Send
@@ -192,7 +191,7 @@
           </div>
           <img
             class="wish-maker__image"
-            src="./images/wish-maker-image.png"
+            src="<%=require('./images/wish-maker-image.png')%>"
             alt="Christmas cats animated image"
           />
         </section>

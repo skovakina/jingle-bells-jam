@@ -6,6 +6,7 @@
   align-items: center;
   background-size: 30%;
   background-image: linear-gradient(
+      to bottom right,
       rgba(187, 45, 37, 0.8),
       rgba(224, 76, 64, 0.8)
     ),
