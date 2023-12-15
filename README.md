@@ -14,7 +14,7 @@ Ever wondered how Santa gets all those gifts around the globe in one night? Well
 
 - [Link to the project on Figma](https://www.figma.com/file/SpY6DFB6h4iw6Zu3EgVn7Z/Merry-Codemas?type=design&node-id=0%3A1&mode=design&t=GhuLCnpvvt5qYUBL-1)
 
-### Run localy
+### Run locally
 
 To get started with this project, clone the repository from GitHub:
 
@@ -56,7 +56,7 @@ First, a random model was fit as a baseline to find distance and time it would t
 
 ![Alt text](<Screenshot 2023-12-14 at 3.12.00 PM.png>)
 
-Random Route Results: 
+**Random Route Results**: 
 
 Random Start city: Antarctica
 
@@ -72,7 +72,7 @@ With Concorde library, Santa's route was optimized to the shortest distance poss
 
 ![Alt text](<Screenshot 2023-12-14 at 3.26.25 PM.png>)
 
-Optimized Route Results:
+**Optimized Route Results**:
 
 Optimal Start city: Afghanistan
 
@@ -90,6 +90,6 @@ Santa has a big night ahead of him, delivering presents around the globe. Merry 
 
 First, a random route was chosen as a baseline (if santa chose his next location off vibes). In his sub-optimal route, santa had to travel 50,000 miles and needed 35 hours to make it around the world. He wouldn't have made it in time!  
 
-With Merry Mailer's specialized route optimization algorithm, we were able to take santa's trip down to 31,000 miles and just under 24 hours. This algorithm used state-of the art Concorde library and Haversine distance to minimize santa's distance delivering from one house to another. We found the optimal order for santa was to travel in this order: Afghanistan, Russia, Australia, Antarctica, Bolivia, United States, Greenland, France, Central African Republic. With our modeling sofware, santa can feel good about making it everywhere he needs to go.  
+With Merry Mailer's specialized route optimization algorithm, we were able to take santa's trip down to 31,000 miles and just under 24 hours. This algorithm used state-of the art Concorde library and Haversine distance to minimize santa's distance delivering from one house to another and speedily found an optimal solution in 0.03 seconds! We're taking the pressure off santa by telling him to travel in this order: Afghanistan, Russia, Australia, Antarctica, Bolivia, United States, Greenland, France, Central African Republic. With our modeling sofware, santa can feel good about making it everywhere he needs to go.  
 
 What's next for Merry Mailers? We're committed to follow up with each of our clients. We'll measure santa's success this season, and maybe add some more locations into our optimizer for next year. And it looks like we'll be staying busy through the year. The Easter Bunny, St. Nicholas, and Tooth Fairy got wind of our services and have been knocking at our door.
