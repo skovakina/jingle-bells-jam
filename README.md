@@ -76,5 +76,14 @@ Optimal Distance: 31087 miles
 
 Optimized Time: 23.91 hours
 
-#### 
+Time to Calculate Solution: 0.03 seconds
 
+#### Conclusions  
+
+Santa has a big night ahead of him, delivering presents around the globe. Merry Mailers wants to help him optimize his trip! To create a model of his trip, nine locations were chosen from around the world: United States, Bolivia, Greenland, Antarctica, France, Central African Republic, Afhanistan, Russia, and Australia.  
+
+First, a random route was chosen as a baseline (if santa chose his next location off vibes). In his sub-optimal route, santa had to travel 50,000 miles and needed 35 hours to make it around the world. He wouldn't have made it in time!  
+
+With Merry Mailer's specialized route optimization algorithm, we were able to take santa's trip down to 31,000 miles and just under 24 hours. This algorithm used state-of the art Concorde library and Haversine distance to minimize santa's distance delivering from one house to another. We found the optimal order for santa was to travel in this order: Afghanistan, Russia, Australia, Antarctica, Bolivia, United States, Greenland, France, Central African Republic. With our modeling sofware, santa can feel good about making it everywhere he needs to go.  
+
+What's next for Merry Mailers? We're committed to follow up with each of our clients. We'll measure santa's success this season, and maybe add some more locations into our optimizer for next year. And it looks like we'll be staying busy through the year. The Easter Bunny, St. Nicholas, and Tooth Fairy have been knocking at our door.
