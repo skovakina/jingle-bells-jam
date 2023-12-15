@@ -50,39 +50,31 @@ Rather than brute-force solve the permutation problem, Concorde library in Pytho
 
 #### Random Model
 
-First, a random model was fit as a baseline distance and time it would take Santa without data support:
+First, a random model was fit as a baseline to find distance and time it would take Santa without data:
+
+![Alt text](<Screenshot 2023-12-14 at 3.12.00 PM.png>)
 
 Random Start city: Antarctica
 
 Random Route Order: 'Antarctica', 'France', 'Australia', 'Bolivia', 'United States', 'Greenland', 'Afghanistan', 'Russia', 'Central African Republic'
 
-<p align="center">
-  <img src="/images/histograms.png" 
-  width="600"
-  height="400"
-  alt="Correlation heatmap">
-</p>
+Random Route Distance: 46977.53 miles
 
-Total Distance: 46977.53 miles
-
-Total Time: 36.14 Hours
+Random Route Time: 36.14 Hours
 
 #### Optimized Model
 
 With Concorde library, Santa's route was optimized to the shortest distance possible.
 
+![Alt text](<Screenshot 2023-12-14 at 3.26.25 PM.png>)
+
 Optimal Start city: Afghanistan
 
 Optimized Route Order: 'Afghanistan', 'Russia', 'Australia', 'Antarctica', 'Bolivia', 'United States', 'Greenland', 'France', 'Central African Republic'
 
-<p align="center">
-  <img src="/images/histograms.png" 
-  width="600"
-  height="400"
-  alt="Correlation heatmap">
-</p>
-
 Optimal Distance: 31087 miles
 
-Total Time: 23.91 hours
+Optimized Time: 23.91 hours
+
+#### 
 
