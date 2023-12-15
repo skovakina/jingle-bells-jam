@@ -29,6 +29,12 @@ npm start
 
 To help Santa get where he needs to go, our resident Data Scientist optimized his route around the globe. From a random model taking over 36 hours to a speedy 23 hour trip, here's how data helped Santa.
 
+#### Run Model Locally
+
+To run .py and .ipynb files locally, install requirments.txt
+
+```pip install -r requirements.txt```
+
 #### Data Set
 
 A data set of longitude and latitudes for each country around the world was found open-source on Kaggle and can be accessed [here](https://www.kaggle.com/datasets/alexkaechele/country-geo). 
