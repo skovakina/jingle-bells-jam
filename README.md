@@ -35,6 +35,10 @@ To run .py and .ipynb files locally, install requirments.txt
 
 ```pip install -r requirements.txt```
 
+If Concorde doesn't load, install directly from it's [GitHub](https://github.com/jvkersch/pyconcorde):
+
+```pip install -e git+https://github.com/jvkersch/pyconcorde```
+
 #### Data Set
 
 A data set of longitude and latitudes for each country around the world was found open-source on Kaggle and can be accessed [here](https://www.kaggle.com/datasets/alexkaechele/country-geo). 
