@@ -56,6 +56,8 @@ First, a random model was fit as a baseline to find distance and time it would t
 
 ![Alt text](<Screenshot 2023-12-14 at 3.12.00 PM.png>)
 
+Random Route Results: 
+
 Random Start city: Antarctica
 
 Random Route Order: 'Antarctica', 'France', 'Australia', 'Bolivia', 'United States', 'Greenland', 'Afghanistan', 'Russia', 'Central African Republic'
@@ -69,6 +71,8 @@ Random Route Time: 36.14 Hours
 With Concorde library, Santa's route was optimized to the shortest distance possible. This library was developed specifically to solve the Traveling Sales Man problem and can quickly and efficiently solve the best route between locations. A matrix of Haversine distances was fed into the model, and this was the result:
 
 ![Alt text](<Screenshot 2023-12-14 at 3.26.25 PM.png>)
+
+Optimized Route Results:
 
 Optimal Start city: Afghanistan
 
@@ -88,4 +92,4 @@ First, a random route was chosen as a baseline (if santa chose his next location
 
 With Merry Mailer's specialized route optimization algorithm, we were able to take santa's trip down to 31,000 miles and just under 24 hours. This algorithm used state-of the art Concorde library and Haversine distance to minimize santa's distance delivering from one house to another. We found the optimal order for santa was to travel in this order: Afghanistan, Russia, Australia, Antarctica, Bolivia, United States, Greenland, France, Central African Republic. With our modeling sofware, santa can feel good about making it everywhere he needs to go.  
 
-What's next for Merry Mailers? We're committed to follow up with each of our clients. We'll measure santa's success this season, and maybe add some more locations into our optimizer for next year. And it looks like we'll be staying busy through the year. The Easter Bunny, St. Nicholas, and Tooth Fairy have been knocking at our door.
+What's next for Merry Mailers? We're committed to follow up with each of our clients. We'll measure santa's success this season, and maybe add some more locations into our optimizer for next year. And it looks like we'll be staying busy through the year. The Easter Bunny, St. Nicholas, and Tooth Fairy got wind of our services and have been knocking at our door.
