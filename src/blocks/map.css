@@ -64,3 +64,10 @@
     max-height: 571px;
   }
 }
+
+@media screen and (max-width: 365px) {
+  .map__heading {
+    font-size: 16px;
+    max-width: 280px;
+  }
+}
