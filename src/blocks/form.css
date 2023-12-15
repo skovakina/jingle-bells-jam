@@ -24,7 +24,7 @@
   border: none;
   border-radius: 4px;
   outline: none;
-  padding: 0;
+  padding: 4px;
   margin-bottom: 15px;
   background-color: #fff;
 }
@@ -34,7 +34,7 @@
 }
 
 .form__input:focus {
-  outline: 4px solid rgb(244, 193, 89);
+  outline: 2px solid rgb(244, 193, 89);
 }
 
 .form__input::-webkit-input-placeholder {
