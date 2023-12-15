@@ -6,7 +6,8 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   min-width: 320px;
-  line-height: 1.2;
+  line-height: 1.5;
+  font-weight: 400;
   font-family: "Figtree", "Arial", "Helvetica", sans-serif;
 }
 

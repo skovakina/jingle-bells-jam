@@ -1,26 +1,25 @@
 .entertainment {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
+  justify-content: space-around;
   align-items: center;
-  max-width: 1200px;
+  gap: 20px;
   width: 100%;
-  margin-top: 132px;
-  margin-bottom: 168px;
+  margin-top: 130px;
+  margin-bottom: 170px;
 }
 
 .entertainment__description {
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
-  max-width: 515px;
+  max-width: 590px;
   width: 100%;
 }
 
 .entertainment__heading {
   font-family: "Signika", "Arial", "Helvetica", sans-serif;
   font-size: 40px;
-  font-weight: 400;
-  line-height: 1.2;
   text-align: left;
   color: #c0140b;
   margin-bottom: 12px;
@@ -36,9 +35,18 @@
   margin-top: 0;
 }
 
+.entertainment__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .entertainment__content {
   font-size: 16px;
-  font-weight: 400;
+
   text-align: left;
   margin-bottom: 10px;
   margin-top: 0;
@@ -49,8 +57,9 @@
 }
 
 .entertainment__iframe-container {
-  width: 622px;
-  height: 348px;
+  max-width: 720px;
+  width: 100%;
+  height: 360px;
 }
 
 .entertainment__iframe {
@@ -59,26 +68,29 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1137px) {
+@media screen and (max-width: 950px) {
   .entertainment {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    margin-top: 61px;
+    margin-top: 60px;
     margin-bottom: 50px;
   }
 
   .entertainment__description {
-    max-width: 725px;
     margin-bottom: 24px;
-    padding: 0 20px;
   }
 
   .entertainment__heading {
     text-align: center;
+    font-size: 40px;
   }
 
   .entertainment__content {
+    text-align: center;
+  }
+
+  .entertainment__list-item {
     text-align: center;
   }
 
@@ -87,15 +99,13 @@
   }
 }
 
-@media screen and (max-width: 950px) {
-  .entertainment__heading {
-    font-size: 40px;
-  }
-}
-
 @media screen and (max-width: 580px) {
   .entertainment__description {
     max-width: 400px;
+  }
+
+  .entertainment__heading {
+    font-size: 32px;
   }
 
   .entertainment__iframe-container {
@@ -113,12 +123,12 @@
     max-width: 280px;
   }
 
-  .entertainment__heading {
-    font-size: 30px;
-  }
-
   .enternainment__sub-heading {
     font-size: 16px;
+  }
+
+  .entertainment__list-item {
+    font-size: 14px;
   }
 
   .entertainment__content {

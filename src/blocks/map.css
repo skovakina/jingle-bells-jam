@@ -39,7 +39,7 @@
       rgba(224, 76, 64, 0.8)
     ),
     url("../images/background.png");
-  padding-top: 70px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,11 +49,10 @@
 .map__heading {
   font-family: "Signika", "Arial", "Helvetica", sans-serif;
   font-size: 40px;
-  font-weight: 400;
-  line-height: 1.2;
+
   text-align: center;
   color: #fff;
-  max-width: 870px;
+  max-width: 900px;
   width: 100%;
   margin-bottom: 0;
   margin-top: 0;
@@ -71,12 +70,9 @@
 .map__text {
   max-width: 1000px;
   width: 100%;
-
   font-size: 20px;
-  font-weight: 400;
-  line-height: 1.2;
   text-align: center;
-  margin-bottom: 46px;
+  margin: 24px 0 46px;
 }
 
 .map__wrapper {
@@ -97,7 +93,8 @@
 .map__name {
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 16px;
   color: #397f65;
 }
 
@@ -124,19 +121,19 @@
   font-size: 32px;
   font-weight: 700;
   color: #bb2d25;
+  margin: 10px 0;
 }
 
 .map__algorithm {
   font-size: 16px;
-  font-weight: 400;
+  margin: 0;
   text-align: center;
 }
 
 @media screen and (max-width: 950px) {
   .map__heading {
-    font-size: 32px;
     max-width: 700px;
-    margin-top: 54px;
+    margin-top: 20px;
   }
 
   .map__container {
@@ -177,7 +174,7 @@
 
 @media screen and (max-width: 580px) {
   .map__heading {
-    font-size: 25px;
+    font-size: 32px;
     max-width: 450px;
   }
 

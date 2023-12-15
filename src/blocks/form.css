@@ -30,7 +30,7 @@
 .form__input::-webkit-input-placeholder {
   font-size: 16px;
   font-weight: 600;
-  line-height: 1.2;
+
   text-align: left;
   color: #000;
   padding-bottom: 180px;
@@ -39,7 +39,7 @@
 .form__input::-moz-placeholder {
   font-size: 16px;
   font-weight: 600;
-  line-height: 1.2;
+
   text-align: left;
   color: #000;
   padding-bottom: 180px;
@@ -48,7 +48,7 @@
 .form__input::-ms-input-placeholder {
   font-size: 16px;
   font-weight: 600;
-  line-height: 1.2;
+
   text-align: left;
   color: #000;
   padding-bottom: 180px;
@@ -72,7 +72,7 @@
 .form__input-error {
   font-size: 14px;
   margin: 4px auto;
-  font-weight: 400;
+
   display: block;
   content: "\200b";
   height: 14px;

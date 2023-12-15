@@ -23,8 +23,7 @@
 
 .features__description {
   font-size: 20px;
-  font-weight: 400;
-  line-height: 1.2;
+
   text-align: center;
   width: 100%;
   margin: 0 0 50px 0;
@@ -63,7 +62,7 @@
 .feature__name {
   font-size: 20px;
   font-weight: 700;
-  line-height: 1.2;
+
   text-align: center;
   color: #397f65;
   margin: 16px 0;
@@ -71,8 +70,7 @@
 
 .feature__description {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.2;
+
   text-align: center;
   margin: 0;
 }
