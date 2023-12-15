@@ -10,6 +10,17 @@
       content="Merry Christamas, Christmas wish, Santa claus, Christmas, Magic, Christmas gift delivery"
     />
     <meta name="author" content="Merry Codemas" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
@@ -85,37 +96,44 @@
           <h2 class="map__heading">
             Delivering gifts faster than you can say "Ho Ho Ho!"
           </h2>
-          <div class="map__container">
-            <iframe class="map__iframe"></iframe>
-          </div>
+          <div id="map" class="map__container"></div>
         </section>
         <section class="wish-maker">
           <div class="wish-maker__container">
             <h2 class="wish-maker__heading">Got a Wish? Write to Santa!</h2>
             <div class="wish-maker__form-container">
-              <form class="form wish-maker__form">
+              <form class="form wish-maker__form" name="form">
                 <fieldset class="form__fieldset">
                   <input
+                    required
                     class="form__input"
                     type="text"
                     name="name"
+                    minlength="2"
+                    maxlength="30"
                     id="name"
                     placeholder="  Full Name"
                     required
                   />
                   <input
+                    required
                     class="form__input"
                     type="text"
                     name="Adress"
                     id="Adress"
+                    minlength="10"
+                    maxlength="100"
                     placeholder="  Adress"
                     required
                   />
                   <input
+                    required
                     class="form__input form__input_size_big"
                     type="text"
-                    name="Your dreams"
-                    id="Your dreams"
+                    name="your-dreams"
+                    id="your-dreams"
+                    minlength="2"
+                    maxlength="30"
                     placeholder="  Your dreams"
                     required
                   />
