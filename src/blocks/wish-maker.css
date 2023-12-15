@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 115px;
 }
 
 .wish-maker__container {
@@ -19,6 +20,7 @@
   line-height: 1.2;
   text-align: left;
   color: #c0140b;
+  margin-top: 0;
 }
 
 .wish-maker__form-container {
