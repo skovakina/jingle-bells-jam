@@ -103,49 +103,48 @@
             <h2 class="wish-maker__heading">Got a Wish? Write to Santa!</h2>
             <div class="wish-maker__form-container">
               <form class="form wish-maker__form" name="form">
-                <fieldset class="form__fieldset">
-                  <input
-                    required
-                    class="form__input"
-                    type="text"
-                    name="name"
-                    minlength="2"
-                    maxlength="30"
-                    id="name"
-                    placeholder="Full Name"
-                    required
+                <input
+                  required
+                  class="form__input"
+                  type="text"
+                  name="name"
+                  minlength="2"
+                  maxlength="30"
+                  id="name"
+                  placeholder="Full Name"
+                  required
+                />
+                <span class="form__input-error name-error"></span>
+                <input
+                  required
+                  class="form__input"
+                  type="text"
+                  name="address"
+                  id="address"
+                  minlength="10"
+                  maxlength="100"
+                  placeholder="Address"
+                  required
+                />
+                <span class="form__input-error address-error"></span>
+                <textarea
+                  class="form__input form__input_size_big"
+                  type="text"
+                  name="your-dreams"
+                  id="your-dreams"
+                  minlength="2"
+                  maxlength="30"
+                  placeholder="Your dreams"
+                  required
+                ></textarea>
+                <span class="form__input-error your-dreams-error"></span>
+                <button type="submit" class="form__button">
+                  <img
+                    src="./images/send_button.svg"
+                    class="form__button-image"
                   />
-                  <input
-                    required
-                    class="form__input"
-                    type="text"
-                    name="Adress"
-                    id="Adress"
-                    minlength="10"
-                    maxlength="100"
-                    placeholder="Adress"
-                    required
-                  />
-                  <textarea
-                    class="form__input form__input_size_big"
-                    type="text"
-                    name="your-dreams"
-                    id="your-dreams"
-                    minlength="2"
-                    maxlength="30"
-                    placeholder="Your dreams"
-                    required
-                  ></textarea>
-                </fieldset>
-                <fieldset class="form__fieldset">
-                  <button type="submit" class="form__button">
-                    <img
-                      src="./images/send_button.svg"
-                      class="form__button-image"
-                    />
-                    Send
-                  </button>
-                </fieldset>
+                  Send
+                </button>
               </form>
             </div>
           </div>

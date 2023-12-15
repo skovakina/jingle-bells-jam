@@ -37,10 +37,9 @@ const options = {
   formSelector: ".form",
   inputSelector: ".form__input",
   submitButtonSelector: ".form__button",
-  inactiveButtonClass: "popup__btn-submit_disabled",
-  inputErrorClass: "popup__input_type_error",
-  errorClass: "popup__input-error_active",
+  inputErrorClass: "form__input_type_error",
+  errorClass: "form__input-error_active",
 };
 
-// const formValidator = new FormValidator(options, form);
-// formValidator.enableValidation();
+const formValidator = new FormValidator(options, form);
+formValidator.enableValidation();
