@@ -31,7 +31,7 @@ To help Santa get where he needs to go, our resident Data Scientist optimized hi
 
 #### Data Set
 
-A data set of longitude and latitudes for each country around the world was found open-source on Kaggle and can be accessed [here](https://www.kaggle.com/datasets/alexkaechele/country-geo).
+A data set of longitude and latitudes for each country around the world was found open-source on Kaggle and can be accessed [here](https://www.kaggle.com/datasets/alexkaechele/country-geo). 
 
 country.csv
 
@@ -39,6 +39,8 @@ country.csv
 * *latitude*: country latitude
 * *longitude*: country longitude
 * *name*: country name
+
+The dataset contains information on country abbreviation, latitude, and longitude for 245 countries around the world. The data were explored for missing values, duplicates, and incorrect values. Only one missing value was found, and it was dropped from the data. Data were otherwise in good condition and ready for analysis.
 
 #### Approach
 
