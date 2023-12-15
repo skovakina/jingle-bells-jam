@@ -19,8 +19,9 @@
 }
 
 .header__image {
-  max-width: 1440px;
   width: 100%;
+  max-height: 800px;
+  height: 100%;
   margin-bottom: 40px;
 }
 
@@ -51,8 +52,45 @@
   margin: 0;
 }
 
-.header__lights-image {
-  max-width: 1440px;
-  width: 100%;
-  display: flex;
+@media screen and (max-width: 950px) {
+  .header__description {
+    max-width: 400px;
+  }
+
+  .header__catchword {
+    text-align: center;
+  }
+
+  .header__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header__heading {
+    font-size: 20px;
+  }
+
+  .header__catchword {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .header__image {
+    margin-bottom: 20px;
+  }
+
+  .header__description {
+    max-width: 280px;
+    margin: 0 0 21px 0;
+  }
+
+  .header__catchword {
+    font-size: 30px;
+  }
+
+  .header__text {
+    font-size: 12px;
+  }
 }

@@ -10,7 +10,18 @@
       content="Merry Christamas, Christmas wish, Santa claus, Christmas, Magic, Christmas gift delivery"
     />
     <meta name="author" content="Merry Codemas" />
-    <link rel="stylesheet" href="../pages/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <div class="page__content">
@@ -30,13 +41,13 @@
             the most fun) delivery service in the world.
           </p>
         </div>
+      </header>
+      <main class="main">
         <img
-          class="header__lights-image"
+          class="main__divisor"
           src="./images/lights.svg"
           alt="Christmas lights"
         />
-      </header>
-      <main class="main">
         <section class="service">
           <p class="service__description">
             We don’t do boring. Our delivery team? Elves might mix up a package
@@ -69,9 +80,9 @@
             </div>
             <div class="feature">
               <img
-                class="feature__image"
+                class="feature__image feature__image_widther"
                 src="./images/reindeer.png"
-                alt="Christmas tree image"
+                alt="Reindeer image"
               />
               <p class="feature__name">Eco-Friendly Sleighs</p>
               <p class="feature__description">
@@ -85,50 +96,55 @@
           <h2 class="map__heading">
             Delivering gifts faster than you can say "Ho Ho Ho!"
           </h2>
-          <div class="map__container">
-            <iframe
-              class="map__iframe"
-              src="./images/iframe-example.png"
-            ></iframe>
-          </div>
+          <div id="map" class="map__container"></div>
         </section>
         <section class="wish-maker">
           <div class="wish-maker__container">
             <h2 class="wish-maker__heading">Got a Wish? Write to Santa!</h2>
             <div class="wish-maker__form-container">
-              <form class="form wish-maker__form">
-                <fieldset class="form__fieldset">
-                  <input
-                    class="form__input"
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="  Full Name"
-                    required
+              <form class="form wish-maker__form" name="form">
+                <input
+                  required
+                  class="form__input"
+                  type="text"
+                  name="name"
+                  minlength="2"
+                  maxlength="30"
+                  id="name"
+                  placeholder="Full Name"
+                  required
+                />
+                <span class="form__input-error name-error"></span>
+                <input
+                  required
+                  class="form__input"
+                  type="text"
+                  name="address"
+                  id="address"
+                  minlength="10"
+                  maxlength="100"
+                  placeholder="Address"
+                  required
+                />
+                <span class="form__input-error address-error"></span>
+                <textarea
+                  class="form__input form__input_size_big"
+                  type="text"
+                  name="your-dreams"
+                  id="your-dreams"
+                  minlength="2"
+                  maxlength="30"
+                  placeholder="Your dreams"
+                  required
+                ></textarea>
+                <span class="form__input-error your-dreams-error"></span>
+                <button type="submit" class="form__button">
+                  <img
+                    src="./images/send_button.svg"
+                    class="form__button-image"
                   />
-                  <input
-                    class="form__input"
-                    type="text"
-                    name="Adress"
-                    id="Adress"
-                    placeholder="  Adress"
-                    required
-                  />
-                  <input
-                    class="form__input form__input_size_big"
-                    type="text"
-                    name="Your dreams"
-                    id="Your dreams"
-                    placeholder="  Your dreams"
-                    required
-                  />
-                </fieldset>
-                <fieldset class="form__fieldset">
-                  <button type="submit" class="form__button">
-                    <img src="./images/send_button.svg" />
-                    Send
-                  </button>
-                </fieldset>
+                  Send
+                </button>
               </form>
             </div>
           </div>
@@ -137,18 +153,18 @@
             src="./images/wish-maker-image.png"
             alt="Christmas cats animated image"
           />
-          <img
-            class="wish-maker__lights-image"
-            src="./images/lights.svg"
-            alt="Christmas lights"
-          />
         </section>
+        <img
+          class="main__divisor"
+          src="./images/lights.svg"
+          alt="Christmas lights"
+        />
         <section class="entertainment">
           <div class="entertainment__description">
             <h2 class="entertainment__heading">
               Listen to Rudolf’s road playlist
             </h2>
-            <p class="enternainment__content">
+            <p class="entertainment__content">
               Think delivering millions of packages in one night is done in
               silence? Oh no, not at Merry Mailers! We're cranking up the
               festive fun with the perfect mix of jingles, joy, and jumpin'
@@ -171,8 +187,6 @@
           <div class="entertainment__iframe-container">
             <iframe
               class="entertainment__iframe"
-              width="622"
-              height="348"
               src="https://www.youtube.com/embed/rtjP56nTB8E?si=cZfTrb1iJZCjxhTz"
               title="YouTube video player"
               frameborder="0"

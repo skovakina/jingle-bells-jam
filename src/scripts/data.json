@@ -1,0 +1,73 @@
+{
+  "total_distance_random": 55662.915227979305,
+  "total_distance_opt": 31087.0,
+  "total_solution_time": 0.039981842041015625,
+  "total_flight_time_random": 42.81762709844562,
+  "total_flight_time_opt": 23.913076923076922,
+  "santa_speed": 1300,
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "latitude": 33.93911,
+      "longitude": 67.709953,
+      "random_position": 6,
+      "optimized_position": 0
+    },
+    {
+      "name": "Antarctica",
+      "latitude": -75.250973,
+      "longitude": -0.071389,
+      "random_position": 2,
+      "optimized_position": 3
+    },
+    {
+      "name": "Australia",
+      "latitude": -25.274398,
+      "longitude": 133.775136,
+      "random_position": 7,
+      "optimized_position": 2
+    },
+    {
+      "name": "Bolivia",
+      "latitude": -16.290154,
+      "longitude": -63.588653,
+      "random_position": 0,
+      "optimized_position": 4
+    },
+    {
+      "name": "Central African Republic",
+      "latitude": 6.611111,
+      "longitude": 20.939444,
+      "random_position": 3,
+      "optimized_position": 8
+    },
+    {
+      "name": "France",
+      "latitude": 46.227638,
+      "longitude": 2.213749,
+      "random_position": 8,
+      "optimized_position": 7
+    },
+    {
+      "name": "Greenland",
+      "latitude": 71.706936,
+      "longitude": -42.604303,
+      "random_position": 5,
+      "optimized_position": 6
+    },
+    {
+      "name": "Russia",
+      "latitude": 61.52401,
+      "longitude": 105.318756,
+      "random_position": 1,
+      "optimized_position": 1
+    },
+    {
+      "name": "United States",
+      "latitude": 37.09024,
+      "longitude": -95.712891,
+      "random_position": 4,
+      "optimized_position": 5
+    }
+  ]
+}

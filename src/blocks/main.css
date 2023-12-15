@@ -4,5 +4,17 @@
   align-items: center;
   max-width: 1440px;
   width: 100%;
-  margin-top: 63px;
+  overflow: hidden;
+}
+
+.main__divisor {
+  min-width: 1440px;
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 365px) {
+  .main__divisor {
+    min-width: 700px;
+  }
 }
