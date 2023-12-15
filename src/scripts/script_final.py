@@ -27,6 +27,7 @@ locations_9 = locations.query('name in @countries')
 
 locations_9.reset_index(inplace=True, drop=True)
 
+# Random path and distance counter
 total_distance_random = 0
 unique_cities = locations_9['name'].unique()
 visited_cities = []
@@ -50,9 +51,8 @@ for i in range(len(unique_cities)-1):
     visited_cities.append(new_city)
     
     old_city = new_city
-    
-print(visited_cities)
 
+# Santa's speed
 santa_speed = 1300
 
 total_time_random = total_distance_random / santa_speed
@@ -104,8 +104,6 @@ ordered_countries = [locations_9.loc[i, 'name'] for i in tour]
 
 print(ordered_countries)
 
-# opt_locations_9 = locations_9.copy()
-
 country_order = CategoricalDtype(ordered_countries, ordered=True)
 
 locations_9['name'] = locations_9['name'].astype(country_order)
@@ -123,6 +121,7 @@ total_distance_opt = total_distance_opt.astype('float').round(2)
 
 total_time_opt = total_distance_opt / santa_speed
 
+# Export solution to JSON
 dictionary = {
     'total_distance_random': total_distance_random,
     'total_distance_opt': total_distance_opt,
@@ -176,10 +175,6 @@ dictionary = {
                    'random_position': visited_cities.index(locations_9.loc[8, 'name']),
                    'optimized_position': ordered_countries.index(locations_9.loc[8, 'name'])}]
 }
-
-# json_obj = json.dumps(dictionary, indent=4)
-
-# print(json_obj)
 
 with open('json_data_real.json', 'w') as outfile:
     json.dump(dictionary, outfile)
