@@ -2,8 +2,8 @@ import "./index.css";
 import santa from "../images/santa.png";
 import data from "../scripts/data.json";
 import FormValidator from "../components/FormValidator.js";
-
-console.log(data);
+import Form from "../components/Form.js";
+import Popup from "../components/PopupConfirm.js";
 
 const map = L.map("map").setView([51.505, -0.09], 2);
 const path = [];
@@ -32,6 +32,8 @@ const optimalPath = path.sort((a, b) => a[2] - b[2]);
 const polyline = L.polyline(optimalPath).addTo(map);
 
 const form = document.forms.form;
+const popup = document.querySelector(".popup-confirm");
+const dataLetters = [];
 
 const options = {
   formSelector: ".form",
@@ -43,3 +45,15 @@ const options = {
 
 const formValidator = new FormValidator(options, form);
 formValidator.enableValidation();
+
+const popupConfirm = new Popup(popup);
+
+const formLetter = new Form(form, () => {
+  console.log(popupConfirm);
+  popupConfirm.open();
+  dataLetters.push(formLetter._getInputValues());
+  formLetter.reset();
+});
+
+formLetter.setEventListeners();
+console.log(dataLetters);
