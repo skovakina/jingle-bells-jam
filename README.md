@@ -1,4 +1,5 @@
 # Merry Mailers
+![image](https://github.com/skovakina/jingle-bells-jam/assets/70713202/8f4a8152-0cf1-40dd-9a73-0556f7c93a30)
 
 ### Meat our team
 
@@ -6,13 +7,24 @@
 - [Anthony Barrios - Software Engineer](https://github.com/IxAntho)
 - [Svetlana Kovakina - Software Engineer](https://github.com/skovakina)
 
-### Description
+### About
 
 Ever wondered how Santa gets all those gifts around the globe in one night? Well, we've borrowed a page from his book! Welcome to Merry Mailers, the most efficient (and let’s be honest, the most fun) delivery service in the world.
 
 ### Design
 
-- [Link to the project on Figma](https://www.figma.com/file/SpY6DFB6h4iw6Zu3EgVn7Z/Merry-Codemas?type=design&node-id=0%3A1&mode=design&t=GhuLCnpvvt5qYUBL-1)
+- [Figma](https://www.figma.com/file/SpY6DFB6h4iw6Zu3EgVn7Z/Merry-Codemas?type=design&node-id=0%3A1&mode=design&t=GhuLCnpvvt5qYUBL-1)
+
+### Live
+
+- [Our project live](https://skovakina.github.io/jingle-bells-jam/)
+
+### Core Technologies
+
+- JavaScript and Node.js.
+- Webpack and Babel
+- Leaflet Library
+- Deployed on gh-pages
 
 ### Run locally
 
@@ -22,7 +34,7 @@ To get started with this project, clone the repository from GitHub:
 git clone https://github.com/skovakina/jingle-bells-jam.git
 cd jingle-bells-jam
 npm install
-npm start
+npm run dev
 ```
 
 ### Route Optimization
