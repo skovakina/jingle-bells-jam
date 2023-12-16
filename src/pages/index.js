@@ -31,6 +31,12 @@ data.countries.forEach((item) => {
 const optimalPath = path.sort((a, b) => a[2] - b[2]);
 const polyline = L.polyline(optimalPath).addTo(map);
 
+document.querySelector(
+  ".map__distance_type_before"
+).textContent = `${Math.round(data.total_distance_random)} mi`;
+document.querySelector(".map__distance_type_after").textContent = `${Math.round(
+  data.total_distance_opt
+)} mi`;
 const form = document.forms.form;
 const popup = document.querySelector(".popup-confirm");
 const dataLetters = [];
