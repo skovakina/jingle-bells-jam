@@ -23,6 +23,7 @@ Ever wondered how Santa gets all those gifts around the globe in one night? Well
 
 - JavaScript and Node.js.
 - Webpack and Babel
+- Leaflet Library
 - Deployed on gh-pages
 
 ### Run locally
