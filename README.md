@@ -14,6 +14,7 @@ Ever wondered how Santa gets all those gifts around the globe in one night? Well
 ### Design
 
 - [Figma](https://www.figma.com/file/SpY6DFB6h4iw6Zu3EgVn7Z/Merry-Codemas?type=design&node-id=0%3A1&mode=design&t=GhuLCnpvvt5qYUBL-1)
+- [Illustrations by Benedetta Capriotti](https://www.behance.net/CapriottiB8dec)
 
 ### Live
 
